@@ -11,7 +11,21 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.banner-wrapper {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  height: 20vh;
   width: 100%;
+  background-color: #ffd039;
+}
+.banner-title {
+  border: 1px solid black;
+}
+.banner-tag {
+  border: 1px solid black;
 }
 
 /*# sourceMappingURL=output.css.map */

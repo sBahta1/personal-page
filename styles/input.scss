@@ -6,10 +6,24 @@
   background-image: url("../assets/pp-background.jpeg");
   min-height: 100vh;
   width: 100%;
-
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width:100%;
+}
+.banner {
+  &-wrapper {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    height: 20vh;
+    width: 100%;
+    background-color: #ffd039;
+  }
+  &-title {
+    border: 1px solid black;
+  }
+  &-tag {
+    border: 1px solid black;
+  }
 }

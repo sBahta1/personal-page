@@ -1,3 +1,6 @@
+// variables
+$bannerFont: didot;
+
 * {
   margin: 0;
   padding: 0;
@@ -26,12 +29,17 @@
   }
   &-title {
     font-size: 2rem;
-    font-family: didot;
+    font-family: $bannerFont;
   }
   &-tag {
     font-size: 1.5rem;
-    font-family: didot;
+    font-family: $bannerFont;
   }
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .aboutMe {
   height: 1000px;
